@@ -76,6 +76,7 @@ body {
   left: 10%;
   top: 8%;
   transform: rotate(15deg);
+  animation: triangle 3s ease-in-out infinite;
 }
 
 .triangle-child-one {
@@ -97,6 +98,7 @@ body {
   left: 27%;
   top: 4%;
   transform: rotate(150deg);
+  animation: triangle 6s ease-in-out infinite;
 }
 
 .triangle-child-two {
@@ -118,6 +120,7 @@ body {
   left: 43%;
   top: 12%;
   transform: rotate(100deg);
+  animation: triangle 4s ease-in-out infinite;
 }
 
 .triangle-child-three {
@@ -139,6 +142,7 @@ body {
   left: 83%;
   top: 10%;
   transform: rotate(-25deg);
+  animation: triangle 3s ease-in-out infinite;
 }
 
 .triangle-child-four {
@@ -159,7 +163,8 @@ body {
   z-index: -1;
   left: 10%;
   top: 90%;
-  transform: rotate(18deg);
+  transform: rotate(15deg);
+  animation: triangle 4s ease-in-out infinite;
 }
 
 .triangle-child-five {
@@ -181,6 +186,8 @@ body {
   left: 19%;
   top: 85%;
   transform: rotate(100deg);
+  animation: triangle 4s ease-in-out infinite;
+
 }
 
 .triangle-child-six {
@@ -202,6 +209,8 @@ body {
   left: 90%;
   top: 92%;
   transform: rotate(-25deg);
+  animation: triangle 3s ease-in-out infinite;
+
 }
 
 .triangle-child-seven {
@@ -224,6 +233,7 @@ body {
   left: 18%;
   top: 1%;
   transform: rotate(45deg);
+  animation: square-big 2s ease-in-out infinite;
 }
 
 .square-two {
@@ -236,6 +246,7 @@ body {
   left: 38%;
   top: 5%;
   transform: rotate(45deg);
+  animation: square-small 6s ease-in-out infinite;
 }
 
 .square-three {
@@ -248,6 +259,7 @@ body {
   left: 86%;
   top: 3%;
   transform: rotate(40deg);
+  animation: square-small 3s ease-in-out infinite;
 }
 
 .square-four {
@@ -260,6 +272,7 @@ body {
   left: 5%;
   top: 80%;
   transform: rotate(40deg);
+  animation: square-big 3s ease-in-out infinite;
 }
 
 .square-five {
@@ -272,6 +285,7 @@ body {
   left: 83%;
   top: 92%;
   transform: rotate(45deg);
+  animation: square-small 2s ease-in-out infinite;
 }
 
 /* Circles */
@@ -366,25 +380,44 @@ body {
   }
 }
 
-@keyframes squares {
+@keyframes square-big {
   0% {
-    transform: translate(0, 0%);
-    transform: rotate(40deg);
+    width: 40px;
+    height: 40px;
   }
   50% {
-    transform: translate(0, 5%);
-    transform: rotate(45deg);
+    width: 45px;
+    height: 45px;
   }
   100% {
-    transform: translate(0, 0%);
-    transform: rotate(40deg);
+    width: 40px;
+    height: 40px;
   }
 }
 
+@keyframes square-small {
+  0% {
+    width: 18px;
+    height: 18px;
+  }
+  50% {
+    width: 25px;
+    height: 25px;
+  }
+  100% {
+    width: 18px;
+    height: 18px;
+  }
+}
 
-
-
-
-
-
-
+@keyframes triangle {
+  0% {
+    margin: 20px;
+  }
+  50% {
+    margin: 25px;
+  }
+  100% {
+    margin: 20px;
+  }
+}
