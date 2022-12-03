@@ -1,0 +1,390 @@
+/* Main Style */
+body {
+  font-family: 'Open Sans';
+}
+
+.main-container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  margin: 0 auto;
+  height: 95vh;
+  color: #171789;
+}
+
+.title {
+  font-size: 50px;
+  line-height: 59px;
+  letter-spacing: 0.926306px;
+  font-weight: 600;
+}
+
+.line {
+  background: #80ffdb;
+  height: 5px;
+  width: 30%;
+}
+
+.text-container p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  width: 80%;
+}
+
+.right-container img {
+  width: 180px;
+}
+
+.right-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.single-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.img-title {
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.55578;
+  margin: 0px;
+}
+
+.value {
+  font-size: 60px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* SHAPES */
+/* Triangles */
+.triangle-one {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 80px solid #8eeed9;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 10%;
+  top: 8%;
+  transform: rotate(15deg);
+}
+
+.triangle-child-one {
+  border-left: 33px solid transparent;
+  border-right: 33px solid transparent;
+  border-bottom: 55px solid white;
+  position: absolute;
+  right: -33.5px;
+  top: 16px;
+}
+
+.triangle-two {
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 55px solid #67c9c7;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 27%;
+  top: 4%;
+  transform: rotate(150deg);
+}
+
+.triangle-child-two {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 35px solid white;
+  position: absolute;
+  right: -19.5px;
+  top: 13px;
+}
+
+.triangle-three {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #6abcc9;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 43%;
+  top: 12%;
+  transform: rotate(100deg);
+}
+
+.triangle-child-three {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid white;
+  position: absolute;
+  right: -10px;
+  top: 14px;
+}
+
+.triangle-four {
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 55px solid #3988c2;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 83%;
+  top: 10%;
+  transform: rotate(-25deg);
+}
+
+.triangle-child-four {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid white;
+  position: absolute;
+  right: -15px;
+  top: 16px;
+}
+
+.triangle-five {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 80px solid #5bb6b4;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 10%;
+  top: 90%;
+  transform: rotate(18deg);
+}
+
+.triangle-child-five {
+  border-left: 33px solid transparent;
+  border-right: 33px solid transparent;
+  border-bottom: 55px solid white;
+  position: absolute;
+  right: -33.5px;
+  top: 16px;
+}
+
+.triangle-six {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #5bb6b4;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 19%;
+  top: 85%;
+  transform: rotate(100deg);
+}
+
+.triangle-child-six {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid white;
+  position: absolute;
+  right: -10px;
+  top: 14px;
+}
+
+.triangle-seven {
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 55px solid #215f8b;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 90%;
+  top: 92%;
+  transform: rotate(-25deg);
+}
+
+.triangle-child-seven {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid white;
+  position: absolute;
+  right: -15px;
+  top: 16px;
+}
+
+/* Squares */
+.square-one {
+  width: 40px;
+  height: 40px;
+  border: solid 7px #72e1d0;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 18%;
+  top: 1%;
+  transform: rotate(45deg);
+}
+
+.square-two {
+  width: 18px;
+  height: 18px;
+  border: solid 7px #6abcc9;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 38%;
+  top: 5%;
+  transform: rotate(45deg);
+}
+
+.square-three {
+  width: 18px;
+  height: 18px;
+  border: solid 7px #3988c2;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 86%;
+  top: 3%;
+  transform: rotate(40deg);
+}
+
+.square-four {
+  width: 40px;
+  height: 40px;
+  border: solid 7px #7af3d6;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 5%;
+  top: 80%;
+  transform: rotate(40deg);
+}
+
+.square-five {
+  width: 18px;
+  height: 18px;
+  border: solid 7px #3278aa;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 83%;
+  top: 92%;
+  transform: rotate(45deg);
+}
+
+/* Circles */
+.circle-one {
+  width: 30px;
+  height: 30px;
+  border: solid 7px #67c9c7;
+  border-radius: 100%;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 34%;
+  top: 11%;
+  animation: circles 3s ease-in-out infinite;
+}
+
+.circle-two {
+  width: 13px;
+  height: 13px;
+  border: solid 7px #5caac1;
+  border-radius: 100%;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 46%;
+  top: 7%;
+  animation: circles 2s ease-in-out infinite;
+}
+
+.circle-three {
+  width: 13px;
+  height: 13px;
+  border: solid 7px #266b9c;
+  border-radius: 100%;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 94%;
+  top: 9%;
+  animation: circles 3s ease-in-out infinite;
+}
+
+.circle-four {
+  width: 13px;
+  height: 13px;
+  border: solid 7px #3988c2;
+  border-radius: 100%;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 23%;
+  top: 93%;
+  animation: circles 2s ease-in-out infinite;
+}
+
+.circle-five {
+  width: 13px;
+  height: 13px;
+  border: solid 7px #3988c2;
+  border-radius: 100%;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 75%;
+  top: 92%;
+  animation: circles 4s ease-in-out infinite;
+}
+
+.circle-six {
+  width: 30px;
+  height: 30px;
+  border: solid 7px #3988c2;
+  border-radius: 100%;
+  margin: 20px;
+  position: absolute;
+  z-index: -1;
+  left: 79%;
+  top: 97%;
+  animation: circles 3s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes circles {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+@keyframes squares {
+  0% {
+    transform: translate(0, 0%);
+    transform: rotate(40deg);
+  }
+  50% {
+    transform: translate(0, 5%);
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: translate(0, 0%);
+    transform: rotate(40deg);
+  }
+}
+
+
+
+
+
+
+
+
